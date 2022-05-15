@@ -23,10 +23,10 @@
 // | SHIFT      |  Z  |  X  |  C   |  V   |  B   | XXXXXX | HOME |  |  UP   | XXXXXX  |  N    |  M    |  ,    |  .   |   /   | RShift |
 //                     | MUTE  | LGUI  | Low  |  RET      | END  |  | DOWN  |  SPACE  | Upper | R-ALT | F-Keys |
 			bindings = <
-	&kp TAB   &kp Q &kp W &kp E &kp R &kp T                                                &kp Y &kp U  &kp I     &kp O   &kp P    &kp BKSP
-	&kp TAB   &kp A &kp S &kp D &kp F &kp G                                                &kp H &kp J  &kp K     &kp L   &kp SEMI &mt SQT RCTRL
-	&kp LSHFT &kp Z &kp X &kp C &kp V &kp B &none &kp HOME        &kp PG_UP &none &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp RSHFT
-	                 &kp C_MUTE &kp LGUI &mo LOWER &kp RET &kp END    &kp PG_DN &kp SPACE  &mo UPPER &kp RALT &mo FKEYS 
+	&kp TAB         &kp Q &kp W &kp E &kp R &kp T                                          &kp Y &kp U  &kp I     &kp O   &kp P    &kp BKSP
+	&mt LCTRL ESC   &kp A &kp S &kp D &kp F &kp G                                          &kp H &kp J  &kp K     &kp L   &kp SEMI &mt RCTRL SQT
+	&kp LSHFT       &kp Z &kp X &kp C &kp V &kp B &none &kp HOME           &kp PG_UP &none &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp RSHFT
+	                 &kp C_MUTE &kp LGUI &mo LOWER &kp RET &kp END         s&kp PG_DN &kp SPACE  &mo UPPER &kp RALT &mo FKEYS 
 			>;
 		};
 
